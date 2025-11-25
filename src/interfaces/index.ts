@@ -1,0 +1,6 @@
+export * from './Character.ts'
+export * from './Film.ts'
+export * from './Planet.ts'
+export * from './Species.ts'
+export * from './Starship.ts'
+export * from './Vehicle.ts'
