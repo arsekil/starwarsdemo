@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "concurrently \"vite --host 0.0.0.0 --port 5173\" \"json-server --watch db.json --host 0.0.0.0 --port 3004\"",
+    "dev": "concurrently \"vite --host 0.0.0.0 --port 5173\" \"json-server --watch db.json --port 3004\"",
     "devServer": "json-server --watch db.json --port 3004",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx,ts,tsx --report-unused-disable-directives --max-warnings 0",
