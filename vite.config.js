@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   server: {
-    allowedHosts: ['devserver-main--starwarsmoviesdemo.netlify.app'],
+    allowedHosts: ['starwarsdemo.onrender.com'],
   },
   test: {
     globals: true,
