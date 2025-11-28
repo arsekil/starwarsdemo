@@ -7,8 +7,8 @@ export const fetchDataThunk = createAsyncThunk(
     try {
       const url =
         id != null
-          ? `http://localhost:3004/${encodeURIComponent(entity)}/${id}`
-          : `http://localhost:3004/${encodeURIComponent(entity)}`
+          ? `https://starwarsdemobe.onrender.com/${encodeURIComponent(entity)}/${id}`
+          : `https://starwarsdemobe.onrender.com/${encodeURIComponent(entity)}`
       const response =
         _page != null && _limit != null ? await axios.get(url, { params: { _page, _limit } }) : await axios.get(url)
       return response.data
