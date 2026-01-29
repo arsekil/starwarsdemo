@@ -1,3 +1,8 @@
+# How to start the App
+1. open adn wait for instance wake-up on [Backend on Render](https://starwarsdemobe.onrender.com/)
+2. open and wait until load on [frontend on Render](https://starwarsdemo.onrender.com)
+
+
 # How to use this repo
 
 - make a fork of this repo
